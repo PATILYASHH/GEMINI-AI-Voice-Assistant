@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgb(92, 100, 221), rgb(107, 40, 230));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #e5c4c4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.mic-button {
+  background-color: #9ae5b0;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.mic-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.mic-button:hover {
+  background-color: #51b377;
+}
+
+.output-container {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 50px;
+}
+
+#outputText {
+  margin: 0;
+  color: #555;
+  font-size: 16px;
+}
